@@ -9,8 +9,8 @@ class MovieController extends Controller
 {
     public function index()
     {
-        $paste = Movie::all();
-        dd($paste);
-        return view('home');
+        $movies = Movie::all();
+        // dd($paste);
+        return view('home',compact('movies'));
     }
 }
