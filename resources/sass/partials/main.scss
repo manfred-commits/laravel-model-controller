@@ -1,0 +1,37 @@
+.container-content{
+  display: flex;
+  height: 100%;  
+  main{
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      align-content: center;
+      flex-wrap: wrap;
+      width: 80%;
+      height: 50%;
+      margin: auto;
+      background-color: $main_background_color;
+      border-radius: 50px 0 50px 0;
+      padding: 20px;
+      color: $main_text_color;
+      box-shadow: 2px 3px 10px 2px $main_box_shadow_color;
+
+      h1{
+          width: 100%;
+          text-align: center;
+          padding: 10px 0;
+      }
+      .container-movie{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-wrap: wrap;
+          width: calc(100% / 5);
+          text-align: center;
+          padding: 10px 0;
+          h6{
+              width: 100%;
+          }
+      }
+  }
+}
