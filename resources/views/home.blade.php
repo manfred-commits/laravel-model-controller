@@ -4,7 +4,12 @@
 
 @section('pageContent')
     <main>
-        ciao
-        <?php dd($movies);?>
+        @foreach ($movies as $movie)
+            <div class="container-movie">
+                <h2>{{$movie['title']}}</h2>
+
+            </div>
+            
+        @endforeach
     </main>
 @endsection
