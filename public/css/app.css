@@ -9,6 +9,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   height: 100vh;
+  background-color: #020000;
 }
 
 .container-content {
@@ -23,19 +24,22 @@ body {
   align-content: center;
   flex-wrap: wrap;
   width: 80%;
-  height: 50%;
   margin: auto;
-  background-color: #fff;
-  border-radius: 50px 0 50px 0;
+  background-color: #1a1919;
+  border-radius: 0 0 50px 50px;
   padding: 20px;
-  color: black;
+  color: transparent;
   box-shadow: 2px 3px 10px 2px #888888;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
 }
 
 .container-content main h1 {
   width: 100%;
   text-align: center;
   padding: 10px 0;
+  font-size: 40px;
+  border-bottom: 3px solid white;
 }
 
 .container-content main .container-movie {
@@ -45,10 +49,22 @@ body {
   flex-wrap: wrap;
   width: 20%;
   text-align: center;
+  box-shadow: 0px 0px 10px 3px #888888;
+  border-radius: 10px;
+  margin: 30px;
   padding: 10px 0;
+}
+
+.container-content main .container-movie h4 {
+  font-size: 18px;
+}
+
+.container-content main .container-movie h5 {
+  font-size: 20px;
 }
 
 .container-content main .container-movie h6 {
   width: 100%;
+  font-size: 20px;
 }
 

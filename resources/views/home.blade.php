@@ -5,7 +5,7 @@
 @section('pageContent')
 <section class="container-content">
     <main>
-        <h1>Movies</h1>
+        <h1>Movies DB</h1>
         @foreach ($movies as $movie)
             <div class="container-movie">
                 <h2>Title: {{$movie['title']}}</h2>
