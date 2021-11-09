@@ -9,7 +9,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   height: 100vh;
-  background-color: #020000;
+  background-color: black;
 }
 
 .container-content {
@@ -31,7 +31,7 @@ body {
   color: transparent;
   box-shadow: 2px 3px 10px 2px #888888;
   -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: white;
+  -webkit-text-stroke-color: #fff;
 }
 
 .container-content main h1 {
@@ -39,7 +39,7 @@ body {
   text-align: center;
   padding: 10px 0;
   font-size: 40px;
-  border-bottom: 3px solid white;
+  border-bottom: 3px solid #fff;
 }
 
 .container-content main .container-movie {
