@@ -13,23 +13,23 @@
       background-color: $main_background_color;
       border-radius: 0 0 50px 50px;
       padding: 20px;
-      color: $main_text_color;
+      color: white;
       box-shadow: 2px 3px 10px 2px $main_box_shadow_color;
-      -webkit-text-stroke-width: 1px;
-      -webkit-text-stroke-color: $main_outer_text_color;
-
+      
       h1{
-          width: 100%;
-          text-align: center;
-          padding: 10px 0;
-          font-size: 40px;
-          border-bottom: 3px solid $h1_border_color;
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+        font-size: 40px;
+        color: $h1_text_color;
+        border-bottom: 3px solid $h1_border_color;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: $main_outer_text_color;
       }
       .container-movie{
           display: flex;
           justify-content: center;
         //   background-color: rgb(0, 0, 0);
-
           align-items: center;
           flex-wrap: wrap;
           width: calc(100% / 5 - 60px);
